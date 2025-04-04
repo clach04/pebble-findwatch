@@ -45,7 +45,7 @@ Pebble.addEventListener("webviewclosed",
 
 Pebble.addEventListener("showConfiguration",
   function() {
-    var uri = "https://rawgithub.com/samuelmr/pebble-findwatch/master/configure.html";
+    var uri = "https://clach04.github.io/pebble-findwatch/configure.html";
     console.log("Configuration url: " + uri);
     Pebble.openURL(uri);
   }
